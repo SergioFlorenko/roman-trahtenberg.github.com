@@ -1,0 +1,26 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Roman Trahtenberg
+email: algoworldru@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+        The Roman Trahtenberg, Роман Трахтенберг. Joke, story, fiction. Анекдоты, истории, рассказы.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://localhost:4000" # the base hostname & protocol for your site
+copyright: © SVF 2018
+header_pages:
+        - 01_articles.md
+        - 02_codes.md
+        - about.md
+twitter_username: jekyllrb
+github_username:  jekyll
+
+# Build settings
+markdown: kramdown
+timezone: Europe/Moscow
+destination: _site
